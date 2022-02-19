@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class Sort
 {
-  // Part A.  Which Sort is Which?
   public static void selectionSort(int[] elements)
   {
     int count = 0;
@@ -24,7 +23,6 @@ public class Sort
     System.out.println("Selection Sort iterations: " + count);
   }
 
-  // Part A.  Which Sort is Which?
   public static void insertionSort(int[] elements)
   {
     int count = 0;
@@ -42,8 +40,7 @@ public class Sort
     }
     System.out.println("Insertion Sort iterations: " + count);
   }
-  
-  // Part C.  Sorting a 1000-word list!
+
   public static void selectionSortWordList(ArrayList<String> words)
   {
     int count = 0;
@@ -65,7 +62,6 @@ public class Sort
     System.out.println("Selection Sort iterations: " + count);
   }
 
-  // Part C.  Sorting a 1000-word list!
   public static void insertionSortWordList(ArrayList<String> words)
   {
     int count = 0;
